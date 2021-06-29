@@ -159,8 +159,8 @@ As seguintes tecnologias  foram usadas na construção do projeto:
  <sub><b>Lucas Walder</b></sub></a> <a href="https://lucaswalder.dev/" title="Lucas Walder's Site">🚀</a>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucaswalder_dev)](https://twitter.com/lucaswalder_dev) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucaswalder-dev/)](https://www.linkedin.com/in/lucaswalder-dev/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato@lucaswalder.dev)](mailto:contato@lucaswalder.dev)
+[![Twitter Badge](https://img.shields.io/badge/-@lucaswalder_dev-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucaswalder_dev)](https://twitter.com/lucaswalder_dev) [![Linkedin Badge](https://img.shields.io/badge/-Lucas%20Walder-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucaswalder-dev/)](https://www.linkedin.com/in/lucaswalder-dev/) 
+[![Gmail Badge](https://img.shields.io/badge/-contato@lucaswalder.dev-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato@lucaswalder.dev)](mailto:contato@lucaswalder.dev)
 
 ---
 
