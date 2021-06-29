@@ -1,0 +1,119 @@
+.content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 11.4rem 1fr;
+    grid-template-areas: 'header header' 'left right';
+}
+
+header {
+    grid-area: header;
+    max-width:80vw;
+}
+
+#bg{
+    grid-area: left;
+    background-image: url('/img/assets/home-illustration.svg');
+    background-repeat: no-repeat;
+    background-position-x: -12rem;
+    background-size: contain;
+}
+
+main {
+    grid-area: right;
+    display: flex;
+    align-items: center;
+    margin-top: -12rem;
+}
+
+main .container {
+    width: min(36.3rem, 100%);
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
+    margin-bottom: 2.4rem;
+}
+
+input {
+    padding: 0 1.6rem;
+}
+
+/* remove spin buttons */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/* end */
+
+input, button, .button {
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.button.outlined:hover, button.outlined:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.button.outlined:hover #svg-outlined, button.outlined:hover #svg-outlined {
+    stroke: var(--white);
+}
+
+/* separator line */
+.separator {
+display: flex;
+align-items: center;
+gap: 1.4rem;
+line-height: 0;
+color: var(--grey-blue);
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+margin: 4rem 0;
+}
+
+.separator div:first-child,
+.separator div:last-child {
+    background-color: var(--grey-blue);
+    height: 1px;
+    width: 100%;
+}
+
+/* balls bg */
+.ball {
+background: linear-gradient(195.96deg, #5498FF -122.01%, #428EFF -8.36%, #297FFF 98.4%);
+opacity: 0.1;
+position: fixed;
+}
+
+
+.ball.top {
+    width: 63.4rem;
+    height: 63.4rem;
+    clip-path: circle();
+    right: -37rem;
+    top: -36rem;
+}
+
+.ball.bottom {
+    width: 21.2rem;
+    height: 21.2rem;
+    clip-path: circle();
+    right: 5.6rem;
+    bottom: -14.8rem;
+}
+
+/* responsive */
+@media (max-width: 495px) {
+ .content {
+    max-width: 90%;
+    grid-template-rows: 11.4rem 1fr 1fr;
+    grid-template-areas: 'header header' 'left left' 'right right';
+ }
+}
